@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.dispatch-runs/
+.test-tmp/
+scripts/dispatch/*compatibility.json
+scripts/dispatch/write-environment.json
+scripts/dispatch/selector-uncertain.json
+.env
+.env.*

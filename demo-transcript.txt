@@ -1,0 +1,19 @@
+Historical offline transcript recorded October 4, 2026. Current scope: see CURRENT.md.
+
+Abrams Intelligence | offline development dispatcher demo
+Synthetic tasks and catalog. No model calls. Account usage: unknown.
+
+1. Summarize a synthetic task list
+   gpt-6-luna / low | policy: dispatch | PASS
+2. Review a consequential change
+   gpt-6-astra / high | policy: dispatch | PASS
+3. Format the next synthetic checklist
+   gpt-6-luna / low | policy: dispatch | PASS
+4. Honor an explicit Manual selection
+   gpt-6-sol / high | policy: dispatch | PASS
+5. Stop when that Manual route is unavailable
+   gpt-6-sol / high | policy: blocked | PASS
+
+5/5 checks passed. Every preview must report dispatched=false.
+A dispatch decision is a recommendation only; no task was executed.
+Live dispatch and Laya remain unadmitted on the current build.

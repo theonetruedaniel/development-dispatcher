@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "integration",
+      "status": "integrated",
+      "a": "changed",
+      "b": "new",
+      "lock_retained": false,
+      "integration_status": "integrated",
+      "recovery_status": "integrated"
+    },
+    {
+      "id": "verification_denied",
+      "status": "conflict",
+      "a": "original",
+      "b": null,
+      "lock_retained": false,
+      "integration_status": "conflict",
+      "recovery_status": null
+    },
+    {
+      "id": "user_conflict",
+      "status": "conflict",
+      "a": "user edit",
+      "b": null,
+      "lock_retained": false,
+      "integration_status": "conflict",
+      "recovery_status": null
+    },
+    {
+      "id": "stop_before_apply",
+      "status": "cancelled",
+      "a": "original",
+      "b": null,
+      "lock_retained": false,
+      "integration_status": "cancelled",
+      "recovery_status": null
+    },
+    {
+      "id": "interrupted_recovery",
+      "status": "uncertain",
+      "a": "changed",
+      "b": null,
+      "lock_retained": true,
+      "integration_status": "uncertain",
+      "recovery_status": "uncertain"
+    },
+    {
+      "id": "recovery_user_edit",
+      "status": "conflict",
+      "a": "user edit",
+      "b": null,
+      "lock_retained": true,
+      "integration_status": "uncertain",
+      "recovery_status": "conflict"
+    },
+    {
+      "id": "missing_termination",
+      "status": "uncertain",
+      "a": "original",
+      "b": null,
+      "lock_retained": true,
+      "integration_status": null,
+      "recovery_status": null
+    },
+    {
+      "id": "scope_denial",
+      "status": "denied",
+      "a": "original",
+      "b": null,
+      "lock_retained": false,
+      "integration_status": null,
+      "recovery_status": null
+    },
+    {
+      "id": "admission_denied",
+      "status": "blocked",
+      "a": "original",
+      "b": null,
+      "lock_retained": false,
+      "integration_status": null,
+      "recovery_status": null
+    }
+  ]
+}

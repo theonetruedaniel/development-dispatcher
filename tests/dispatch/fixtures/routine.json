@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "package_id": "synthetic-routine",
+  "task": "Return exactly OK. No tool use.",
+  "task_class": "routine",
+  "workspace": ".",
+  "allowed_actions": ["read"],
+  "required": true,
+  "timeout_seconds": 60,
+  "max_attempts": 1,
+  "verification": [{"type": "final_equals", "expected": "OK"}]
+}
